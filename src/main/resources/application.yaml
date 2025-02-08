@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: todoapp
+  datasource:
+    url: jdbc:postgresql://ep-patient-pine-a809ngl5-pooler.eastus2.azure.neon.tech/neondb?sslmode=require
+    username: neondb_owner
+    password: npg_vLx9JfkMV8RE
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  main:
+    banner-mode: off
