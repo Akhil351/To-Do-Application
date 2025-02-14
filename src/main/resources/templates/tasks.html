@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nebula Tasks</title>
+    <title>Akhil Tasks</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @tailwind base;
@@ -90,6 +90,53 @@
             transform: translateX(200%) translateY(200%) rotate(45deg);
             opacity: 0;
           }
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .text-4xl {
+                font-size: 2rem;
+            }
+            .text-xl {
+                font-size: 1.25rem;
+            }
+            .text-sm {
+                font-size: 0.875rem;
+            }
+            .px-6 {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+            .py-8 {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+            .max-w-3xl {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .text-4xl {
+                font-size: 1.5rem;
+            }
+            .text-xl {
+                font-size: 1rem;
+            }
+            .text-sm {
+                font-size: 0.75rem;
+            }
+            .px-6 {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .py-8 {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+            .max-w-3xl {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
